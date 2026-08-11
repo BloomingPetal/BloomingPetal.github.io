@@ -3,7 +3,7 @@ A project created during the Girls who code program (summer 26')
 
 ## description
 
-This is my Activist Toolkit Project where I discussed the issue of the declining birth rate in Jamaica.
+This is my Activist Toolkit Project where I discussed Jamaica's declining birth rate.
 
 
 ### Image Attributions
