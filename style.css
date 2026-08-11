@@ -1,0 +1,303 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: #FAFAFA; 
+}
+
+/* STYLE TEXT */
+
+p{
+  margin-left: 2em;
+  margin-right:2em;
+}
+
+.intro{
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 3;
+  
+}
+ #s1{
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 3;
+    background-color: #FFFF00;
+    border-radius: 1em;
+   
+ }
+
+#s2{
+   margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 3;
+    background-color: #32CD32;
+    border-radius: 1em;
+  
+}
+.s3{
+   margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 3;
+    background-color: #FFFF00;
+    border-radius: 1em;
+   
+}
+
+.s4{
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 3;
+    background-color: #32CD32;
+    border-radius: 1em;
+}
+
+h5{
+  margin-left: 1em;
+  font-size: 20px;
+  margin-top: 1em;
+  padding: 1em;
+  text-align: center;
+  
+}
+
+
+h3{
+  margin-left: 1em;
+  font-size: 25px;
+  margin-top: 1em;
+  padding: 1em;
+  text-align: center;
+}
+
+#title {
+  color: black;
+  text-align: center;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  padding: 1em;
+}
+
+
+
+
+
+.highlight{
+  font-weight: bold;
+  font-style: italic;
+  color: #FF6F61;
+}
+
+.highlight2{
+  font-weight: bold;
+  color: #FF6F61;
+  font-style: italic;
+}
+
+
+
+
+/* STYLE IMAGES */
+#pic1{
+  width: 500px;
+  height: auto;
+  position: relative;
+  text-align: center;
+  left: 10em;
+  border-radius: 1em;
+  border: 3px solid lightseagreen;
+  margin-bottom:1em;
+  display: block;
+}
+
+#pic2{
+  width:500px;
+  height: auto;
+  position: relative;
+  text-align: center;
+  right: -5em;
+  border-radius: 1em;
+  border: 3px solid lightseagreen;
+  margin-bottom:1em;
+  display: block;
+}
+
+.flex-container{
+  display:flex;
+  flex-direction:row;
+  flex-wrap: nowrap;
+}
+
+.flex-item{
+  flex-basis: 100%;
+  margin: 1%;
+}
+
+@media screen and (max-width:850px){
+  .flex-container{
+    flex-wrap:wrap;
+    justify-content: center;
+  }
+  #pic1{
+  width:350px;
+  }
+
+  #pic2{
+    width:350px;
+  }
+
+  header{
+    padding-left: 20%;
+    padding-right:20%;
+  }
+
+  main{
+    margin-left:5%;
+    margin-right:5%
+  }
+
+  #giveFacts, #facts{
+    margin-top:30px;
+    margin-left: 15%;
+    margin-right: 15%
+  }
+
+  #facts{
+    font-size:1.5em;
+  }
+  nav {
+  background-color: black;
+  padding: 0;          
+  margin: 0;           
+  display: flex;
+  width: auto;       
+}
+
+
+  
+  
+
+  
+}
+/* STYLE NAV BAR */
+nav{
+  text-align: right;
+}
+ul{
+  list-style-type: none;
+  background-color:black;
+  overflow: hidden;
+  padding: 1em;
+}
+
+li{
+  display: inline;
+}
+
+li a{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration:bold; 
+  text-decoration: none;
+  color: white;
+  font-size: 1.3em;
+  padding:  1em;
+}
+
+/* STYLE Fact Generator section */
+
+h2{
+  margin-left: 1em;
+  font-size: 25px;
+  margin-top: 1em;
+  padding: 1em;
+  text-align: center;
+}
+
+#f1{
+
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 20px;
+    line-height: 3;
+    background-color: black;
+    border-radius: 1em;
+    color: white;
+  
+}
+
+#f2{
+  margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 20px;
+    line-height: 3;
+    background-color: limegreen;
+    border-radius: 1em;
+    color: white;
+}
+
+#giveFacts{
+   margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 1em;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 3;
+    background-color: #FFFF00;
+    border-radius: 1em;
+    text-align: center;
+    padding: 15px;
+}
+
+#mybutton{
+
+  background-color: #800020;
+  color: white;
+  border-radius: 15px;
+  width: 100px;
+  height: 60px;
+  font-size:15px;
+}
+
+#facts{
+  font-size:30px;
+  padding: 15px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: center;
+  color: red;
+  line-height: 2 em;
+  font-family: 'Helvetica', Arial, sans-serif;
+  
+}
+
+
+
+
+
+/* ADD MORE! */
